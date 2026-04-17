@@ -37,9 +37,6 @@ export function ThemeSwitch() {
           </Switch.Icon>
         </Switch.Thumb>
       </Switch.Control>
-      <Switch.Content>
-        <Label className="text-sm">{theme === "dark" ? "Dark" : "Light"} Mode</Label>
-       </Switch.Content>
     </Switch>
   );
 }
